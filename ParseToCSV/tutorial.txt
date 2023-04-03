@@ -1,0 +1,58 @@
+country_decisions = {
+
+	monarch_PAP_No.0a = {
+		major = yes
+		potential = {
+			tag = PAP
+			is_year = 1447
+			NOT = { has_global_flag = monarch_PAP_No.0a }
+		}
+		allow = {
+			is_year = 1447
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.0a
+			add_stability = -1
+			define_ruler = {
+				name = "Nicholaus V"
+				dynasty = "Parentucelli"
+				birth_date = 1397.11.15
+				adm = 4
+				dip = 3
+				mil = 1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	monarch_PAP_No.1a = {
+		major = yes
+		potential = {
+			tag = PAP
+			is_year = 1455
+			NOT = { has_global_flag = monarch_PAP_No.1a }
+		}
+		allow = {
+			is_year = 1455
+			is_lesser_in_union = no
+			has_regency = no
+		}
+		effect = {
+			set_global_flag = monarch_PAP_No.1a
+			add_stability = -1
+			define_ruler = {
+				name = "Callistus III"
+				dynasty = "Borgia"
+				birth_date = 1378.12.31
+				adm = 3
+				dip = 3
+				mil = 4
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
